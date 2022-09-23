@@ -10,9 +10,11 @@
 
 - HTML, CSS, Javascript and Bootstrap
 
+Screenshot;
+<img src= "./image/project.jpg">
 
 ## Live Demo
-> [Link to project]
+> [Link to project] 
 
 
 ## Getting Started
