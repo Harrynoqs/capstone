@@ -2,26 +2,32 @@
 
 > This is a capstone project where I develop a website for Fundraising concert.
 > This project includes :
-✔ The home page
-✔ The about page
+✔ The home page.
+✔ The about page.
 
 
 ## Built With
 
 - HTML, CSS, Javascript and Bootstrap
 
+## Technologies used 
+
+--GitHub --Visual Studio Code --GitBash
+
 Screenshot;
+<img src = "./image/project.jpg">
 
 
 ## Live Demo
-> [Link to project] https://github.com/Harrynoqs/capstone/pull/1
+> [Link to project] [https://harrynoqs.github.io/capstone/index.html]
+
 
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-✔ Clone the repo to your local environment
+✔ Clone the repo to your local environment: [https://github.com/Harrynoqs/capstone]
 ✔ Run npm install to install all dependencies
 ✔ Open the index.html file with your favorite browser.
 ✔ Modify with your preferred text editor
