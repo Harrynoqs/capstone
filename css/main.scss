@@ -53,7 +53,7 @@ p {
 }
 
 .headpart {
-  background-image: url('/image/background-img.png');
+  background-image: url('./image/background-img.png');
   background-repeat: no-repeat;
   background-color: #fff;
   padding-bottom: 5em;
@@ -202,7 +202,7 @@ h1.mobile {
 }
 
 section#program {
-  background-image: url('/image/middle.jpg');
+  background-image: url('./image/middle.jpg');
   background-size: 20em;
   padding-bottom: 5em;
 }
