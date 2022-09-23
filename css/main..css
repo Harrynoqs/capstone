@@ -53,7 +53,7 @@ p {
 }
 
 .headpart {
-  background-image: url('/image/background-img.png');
+  background-image: url('./image/background-img.png');
   background-repeat: no-repeat;
   background-color: #fff;
   padding-bottom: 5em;
