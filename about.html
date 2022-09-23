@@ -7,6 +7,8 @@
     <title>Kenya Redcross Fundraising concert</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./bout.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -51,12 +53,12 @@
                     </div>
                     <div class="desktop">
                     <ul class="nav-icons">
-                        <li class="secondary-links active "><a href="#Home">Home</a></li>
-                        <li class="secondary-links"><a href="./about.html">About us</a></li>
-                        <li class="secondary-links"><a href="#Program">Mission</a></li>
-                        <li class="secondary-links"><a href="#Team">Team</a></li>
-                        <li class="secondary-links"><a href="#Partner">Partners</a></li>
-                        <li class="secondary-links"><a href="#Home">CloudFlare</a></li>
+                      <li class="secondary-links active hover-zoom hover-shadow"><a href="#Home">Home</a></li>
+                      <li class="secondary-links hover-zoom hover-shadow"><a href="./about.html">About us</a></li>
+                      <li class="secondary-links hover-zoom hover-shadow"><a href="#Program">Mission</a></li>
+                      <li class="secondary-links hover-zoom hover-shadow"><a href="#Team">Team</a></li>
+                      <li class="secondary-links hover-zoom hover-shadow"><a href="#Partner">Partners</a></li>
+                      <li class="secondary-links hover-zoom hover-shadow bg-danger p-2 btn-rounded"><a href="#Home">CloudFlare</a></li>
                     </ul>
                     </div>
                 </div>
@@ -67,7 +69,7 @@
                         <img onclick="clickToSwitch()" alt="close-icone-image" src="/image/exit.svg" />
                       </div>
                       <div class="mobile-menu">
-                        <ul class="mobile-list">
+                        <ul class="mobile-list hover-zoom hover-shadow">
                           <li><a  href="#" onclick="clickToSwitch()">Home</a></li>
                           <li><a  href="./about.html" onclick="clickToSwitch()">About us</a></li>
                           <li><a  href="#" onclick="clickToSwitch()">Mission</a></li>
@@ -83,14 +85,14 @@
           </div>
         </header>
         </div>
-        <section class="headpart" id="head">
+        <section class="headpart justify-content-center" id="head">
           <h1 class="mobile pt-0 text-center ps-0 pt-4">
             Kenya Redcross<br>Fundraising concert<br>2015
           </h1>
           <h2 class="desktop head-h2 text-center ps-0">
             Kenya Redcross<br>Fundraising concert<br>2015
           </h2>
-          <p class="headpart-text text-center">
+          <p class="headpart-text text-center bg-light ">
             We are organizing a consert for fundraising to feed people who are affected by the ongoing drought. 
             Donate to support humanitarian work around Kenya. In times of crisis, we meet the urgent needs 
             of women, men, young and the old. Help enable a rapid response to disasters. Your contribution can 
@@ -113,29 +115,32 @@
         <section id="about-program">
             <h4 class="text-center mb-4">See the past Kenya Redcross Fundraising concert</h4>
             <p class="text-center my-4 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus debitis ab deserunt cum nesciunt, animi quo dolore aut quae, a sit dicta sapiente hic ea neque voluptatibus repudiandae harum asperiores!</p>
-            <div class="container pb-3">
-              <div class="row justify-content-center about-program-row">
-                <div class="col-lg-6">
-                  <div class="card-wrapper">
-                    <img class="card-bg img-fluid" src="./image/food-don2.jpg" alt="Card Background">
-                    <div class="overlay"></div>
-                    <div class="overlay-content text-center">
-                      <h3>2013</h3>
-                      <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                  </div>
+            <div class="pb-3">
+              <div class="row justify-content-center pb-5 gap-4">
+                <div class="col-md-4 bg-image ripple" data-mdb-ripple-color="light">
+                  <img src="./image/food-don2.jpg" class="w-100" />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(242, 133, 121, 0.75)">
+                      <div class="d-flex justify-content-center align-items-center h-100">
+                        <p class="d-flex text-white mb-0 noqstext">2014 <br> Food Distribution in Nairobi.</p>
+                      </div>
+                    </div>                    
+                  </a>
                 </div>
-                <div class="col-lg-6">
-                  <div class="card-wrapper">
-                    <img class="card-bg img-fluid" src="./image/food-donation2.jpg" alt="Card Background">
-                    <div class="overlay"></div>
-                    <div class="overlay-content text-center">
-                      <h3>2012 </h3>
-                      <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                  </div>
+    
+                <div class="col-md-4 bg-image ripple" data-mdb-ripple-color="light">
+                  <img src="./image/food-donation2.jpg" class="w-100" />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(242, 133, 121, 0.75)">
+                      <div class="d-flex justify-content-center align-items-center h-100">
+                        <p class="d-flex text-white mb-0 noqstext">2014 <br> Food Distribution in Nairobi.</p>
+                      </div>
+                    </div>                    
+                  </a>
                 </div>
-              </div>
+            </div>
+        </section>
+    
             </div>
           </section>
           <footer>

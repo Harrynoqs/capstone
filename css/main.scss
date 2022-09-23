@@ -87,7 +87,6 @@ p.headpart-text {
   font-size: 1.2em;
   margin: 1em 0;
   border: lightyellow 3px solid;
-  width: 80%;
 }
   
 h4.head-h4-strong {
@@ -108,6 +107,10 @@ ul {
   
 .card-img-top {
   padding-left: 1em;
+}
+
+.noqstext {
+  z-index: 4;
 }
   
 .items {
@@ -306,8 +309,9 @@ div.follow-up div.follow-up-body {
     font-size: 1rem;
     line-height: 1.25rem;
     color: #344563;
+    transition: 0.5s;
   }
- 
+
   .items {
     padding: 26px 155px;
   }
@@ -374,8 +378,9 @@ div.follow-up div.follow-up-body {
   .navone-items li a {
     color: #fff;
     text-decoration: none;
+    transition: 1s;
   }
-  
+
   .primary-nav {
     display: block;
     background-color: #272a31;
