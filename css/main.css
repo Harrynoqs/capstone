@@ -52,7 +52,7 @@ p {
 }
 
 .headpart {
-  background-image: url("./image/background-img.png");
+  background-image: url("/image/background-img.png");
   background-repeat: no-repeat;
   background-color: #fff;
   padding-bottom: 5em;
@@ -314,7 +314,7 @@ div.follow-up div.follow-up-body {
     display: none;
   }
   .headpart {
-    background-image: url("./image/background-img.png");
+    background-image: url("/image/background-img.png");
     background-position: center center;
     background-size: cover;
   }
