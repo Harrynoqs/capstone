@@ -1,3 +1,13 @@
+/* eslint-disable no-unused-vars */
+function clickToSwitch() {
+  const switchD = document.getElementById('closemenu');
+  if (switchD.style.display === 'block') {
+    switchD.style.display = 'none';
+  } else {
+    switchD.style.display = 'block';
+  }
+}
+
 const speakerData = [{
   imageSrc: 'image/memberone.png',
   imageAlt: 'Yochai Benkler image',
