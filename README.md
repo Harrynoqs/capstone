@@ -14,7 +14,7 @@ Screenshot;
 <img src= "./image/project.jpg">
 
 ## Live Demo
-> [Link to project] 
+> [Link to project] https://github.com/Harrynoqs/capstone/pull/1
 
 
 ## Getting Started
