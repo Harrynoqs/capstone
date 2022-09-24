@@ -315,6 +315,10 @@ div.follow-up div.follow-up-body {
   border-bottom: 1px solid;
 }
 
+.underlineone {
+  text-decoration: underline;
+}
+
 /* Media Query Section(Desktop Version) */
 
 @media screen and (min-width: 768px) {
@@ -457,5 +461,9 @@ div.follow-up div.follow-up-body {
   .borderdanger {
     border: #ec5242 solid 3px;
     padding: 5px;
+  }
+
+  .underlineone {
+    text-decoration: underline;
   }
 }
