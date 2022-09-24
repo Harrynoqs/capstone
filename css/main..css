@@ -282,6 +282,21 @@ div.follow-up div.follow-up-body {
   background-color: rgba(242, 133, 121, 0.75);
 }
 
+.guide-bar {
+  border: 1px solid #ec5242;
+  width: 5.3rem;
+  margin: auto;
+}
+
+.paddings {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.mBottom10 {
+  margin-bottom: 10px;
+}
+
 /* Media Query Section(Desktop Version) */
 
 @media screen and (min-width: 768px) {
@@ -321,15 +336,15 @@ div.follow-up div.follow-up-body {
   }
 
   .headpart {
-    background-image: url('/image/background-img.png');
+    background-image: url('./image/background-img.png');
     background-position: center center;
     background-size: cover;
   }
 
   .head-h2 {
     font-style: normal;
-    font-weight: 700;
-    font-size: 5.6em;
+    font-weight: 900;
+    font-size: 4.6em;
     line-height: 1em;
     padding: 0 0 0 160px;
     color: #ec5242;

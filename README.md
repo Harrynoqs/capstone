@@ -36,6 +36,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Harrison Njuguna**
 👍**Github @Harrynoqs**
+**Twitter: @noqsnoq1**
+**LinkedIn: Harrisonnjuguna**
 
 
 
@@ -47,7 +49,7 @@ Feel free to check the [issues page].
 
 ## Acknowledgments
 
-- [Cindy Shin in Behance](https://www.behance.net/adagio07)
+- [Cindy Shin in Behance](https://www.behance.net/adagio07) The author of the original design
 - [Fontawesome](https://fontawesome.com/icons)
 - Kenya red cross for the use of its logo.
 

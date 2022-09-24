@@ -4,6 +4,7 @@ body {
   margin: 0;
   background: #fff;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .desktop {
@@ -60,6 +61,21 @@ p {
   background-size: cover;
 }
 
+.bigtitle {
+  background-image: url(/image/head2.jpg);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
+  line-height: 2.875rem;
+}
+
+.guide-bar {
+  border: 1px solid #ec5242;
+  width: 5.3rem;
+  margin: auto;
+}
+
 .logo {
   text-decoration: none;
   font-family: 'lato', sans-serif;
@@ -84,9 +100,11 @@ p {
 }
 
 p.headpart-text {
-  font-size: 1.2em;
-  margin: 1em 0;
-  border: lightyellow 3px solid;
+  border: white 4px solid;
+  background-color: rgb(247, 247, 248);
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 h4.head-h4-strong {
@@ -282,6 +300,25 @@ div.follow-up div.follow-up-body {
   background-color: rgba(242, 133, 121, 0.75);
 }
 
+.guideBar {
+  width: 53px;
+  color: #ec5242;
+  height: 16px;
+  border-bottom: 1px solid;
+  margin-bottom: 40px;
+}
+
+.paddings {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.barSpeaker {
+  width: 25px;
+  height: 10px;
+  border-bottom: 1px solid;
+}
+
 /* Media Query Section(Desktop Version) */
 
 @media screen and (min-width: 768px) {
@@ -326,17 +363,23 @@ div.follow-up div.follow-up-body {
     background-size: cover;
   }
 
+  /* .paramain {
+    padding: min(30px, 3vh);
+    margin: 0;
+    overflow: hidden;
+  } */
+
   .head-h2 {
     font-style: normal;
-    font-weight: 700;
-    font-size: 5.6em;
+    font-weight: 900;
+    font-size: 4.6em;
     line-height: 1em;
     padding: 0 0 0 160px;
     color: #ec5242;
   }
 
   .headpart-text {
-    padding: 12px 160px 12px 160px;
+    margin: 12px 160px 12px 160px;
     font-family: 'lato', sans-serif;
     font-style: normal;
     font-weight: 400;

@@ -66,7 +66,8 @@ speakerData.forEach((speaker) => {
         </div>
         <div class="card-content">
           <h6 class="name">${speaker.speakerName}</h6>
-          <small>${speaker.speakerTitle}</small>
+          <small class="text-danger">${speaker.speakerTitle}</small>
+          <div class="barSpeaker lightColor mBottom10"></div>
           <p class="p-0">
             ${speaker.speakerDescription}
           </p>
