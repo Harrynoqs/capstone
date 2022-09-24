@@ -463,4 +463,9 @@ div.follow-up div.follow-up-body {
     width: 85px;
     height: 85px;
   }
+
+  .borderdanger {
+    border: #ec5242 solid 3px;
+    padding: 5px;
+  }
 }
