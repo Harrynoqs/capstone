@@ -62,10 +62,6 @@ p {
 }
 
 .bigtitle {
-  background-image: url("/image/head2.jpg");
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-size: 2.5rem;
   line-height: 2.875rem;
 }
