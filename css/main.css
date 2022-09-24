@@ -216,13 +216,14 @@ h1.mobile {
 }
 
 section#program {
+  background-image: url('/image/middle.jpg');
   background-size: 20em;
   padding-bottom: 5em;
 }
 
 section#program h4 {
   color: #fff;
-  margin: 2em 0;
+  margin: 1em 0;
 }
 
 section#program div.row {
@@ -299,14 +300,14 @@ div.follow-up div.follow-up-body {
 .guideBar {
   width: 53px;
   color: #ec5242;
-  height: 16px;
   border-bottom: 1px solid;
   margin-bottom: 40px;
+  margin-top: 5px;
 }
 
 .paddings {
-  padding-top: 40px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .barSpeaker {
