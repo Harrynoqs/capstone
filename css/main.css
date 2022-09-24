@@ -54,7 +54,7 @@ p {
 }
 
 .headpart {
-  background-image: url('./image/background-img.png');
+  background-image: url("/image/background-img.png");
   background-repeat: no-repeat;
   background-color: #fff;
   padding-bottom: 5em;
@@ -62,7 +62,7 @@ p {
 }
 
 .bigtitle {
-  background-image: url(./image/head2.jpg);
+  background-image: url("/image/head2.jpg");
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -358,7 +358,7 @@ div.follow-up div.follow-up-body {
   }
 
   .headpart {
-    background-image: url('/image/background-img.png');
+    background-image: url("/image/background-img.png");
     background-position: center center;
     background-size: cover;
   }
