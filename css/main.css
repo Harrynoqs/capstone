@@ -62,7 +62,7 @@ p {
 }
 
 .bigtitle {
-  background-image: url(/image/head2.jpg);
+  background-image: url(./image/head2.jpg);
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
