@@ -217,8 +217,10 @@ h1.mobile {
 
 section#program {
   background-image: url('/image/middle.jpg');
+  height: auto;
   background-size: 20em;
   padding-bottom: 5em;
+  width: 100vw;
 }
 
 section#program h4 {
