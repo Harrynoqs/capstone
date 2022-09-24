@@ -216,7 +216,7 @@ h1.mobile {
 }
 
 section#program {
-  background-image: url('./image/middle.jpg');
+  background-image: url('/image/middle.jpg');
   background-size: 20em;
   padding-bottom: 5em;
 }
@@ -359,7 +359,7 @@ div.follow-up div.follow-up-body {
   }
 
   .headpart {
-    background-image: url("./image/background-img.png");
+    background-image: url("/image/background-img.png");
     background-position: center center;
     background-size: cover;
   }
